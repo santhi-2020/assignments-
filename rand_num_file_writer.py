@@ -3,7 +3,7 @@
 import random
 
 #create and open the file to write the random numbers
-r_file = open(r"C:\Users\psanthi\Downloads\ass-3\auto-random-output.txt", "w" )
+r_file = open(r"D:\ass-3\auto-random-output.txt", "w" )
 
 #exception handling block, which will avoids non integer input from the user 
 try:
