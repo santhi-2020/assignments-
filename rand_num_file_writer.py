@@ -10,6 +10,7 @@ try:
     for i in range(int(input('Please enter how many random numbers you want to geenerate?: '))):
         line = str (random.randint (1, 500)) #condition to generate the numbers between 1 to 500
         r_file.write(line) # writes the seris of numbers
+        r_file.write("\n") # writes the seris of numbers
         #print(line)
 except ValueError:
     print ("Please enter valid integer numbers")
